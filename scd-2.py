@@ -18,7 +18,7 @@ df_scd2 = df
 df_scd2['EFF_DATE'] = today
 df_scd2['END_DATE'] = MAX_END_DATE
 print(df_scd2)
-# df_scd1.to_csv('output/scd-1/load-1.csv', index=False)
+df_scd2.to_csv('output/scd-1/load-1.csv', index=False)
 
 # # For Load 2 (Day 2)
 # df = pd.read_csv('dataset/data-2.csv')
